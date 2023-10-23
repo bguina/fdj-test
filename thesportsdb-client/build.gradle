@@ -1,0 +1,21 @@
+import com.jefferson.bestfdjtest.buildsrc.Libs
+
+plugins {
+    id("kotlin")
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+dependencies {
+    implementation(Libs.Kotlin.Coroutines.android)
+    implementation "androidx.annotation:annotation:1.6.0"
+    implementation(platform(Libs.OkHttp.bom))
+    implementation(Libs.OkHttp.okHttp)
+    implementation(Libs.OkHttp.loggingInterceptor)
+    implementation(Libs.Retrofit.retrofit)
+    implementation(Libs.Retrofit.moshiConverter)
+    implementation(Libs.Moshi.moshi)
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BestFDJ Test</string>
+
+    <!--SportsLeagues-->
+
+    <string name="sportsleagues_search_hint">Search by league</string>
+    <string name="sportsleagues_clear_content_description">Clear search</string>
+    <string name="sportsleagues_no_team_found">No team found in this league</string>
+    <string name="sportsleagues_team_no_badge">%1$s\n(no badge)</string>
+
+    <!--Errors-->
+    <string name="errors_please_contact">Please contact %1$s</string>
+
+</resources>
